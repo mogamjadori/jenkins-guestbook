@@ -1,5 +1,5 @@
 FROM openjdk:8-alpine
-COPY target/gustbook-0.0.1-SNAPSHOT.jar /app/guestbook.jar
+COPY target/guestbook-0.0.1-SNAPSHOT.jar /app/guestbook.jar
 ENV APP_HOME /app
 EXPOSE 8080
 VOLUME /app/upload
